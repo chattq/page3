@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous" />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header top -->
+    <div class="header__top" style="background-color: #963d5a">
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          height: 41px;
+          justify-content: space-between;
+          width: 80%;
+          margin: auto;
+        "
+        class="header_top">
+        <div
+          style="font-weight: 600; color: #fff; font-size: 13px"
+          class="welcome">
+          Welcome to Our Store!
+        </div>
+        <div style="display: flex; align-items: center">
+          <div style="display: flex; align-items: center; margin-right: 10px">
+            <div style="width: 25px; height: 25px; margin-right: 10px">
+              <img
+                class="scale-with-grid"
+                src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-header-icon4.svg"
+                alt=""
+                style="width: 100%; height: 100%; object-fit: cover" />
+            </div>
+            <div style="font-weight: 600; color: #fff; font-size: 13px">
+              Free delivery over $200
+            </div>
+          </div>
+          <div
+            style="display: flex; align-items: center; margin-right: 10px"
+            class="money">
+            <div style="width: 25px; height: 25px; margin-right: 10px">
+              <img
+                class="scale-with-grid"
+                src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-header-icon5.svg"
+                alt=""
+                style="width: 100%; height: 100%; object-fit: cover" />
+            </div>
+            <div style="font-weight: 600; color: #fff; font-size: 13px">
+              Money back guarantee
+            </div>
+          </div>
+          <div style="display: flex; align-items: center" class="weekly">
+            <div style="width: 25px; height: 25px; margin-right: 10px">
+              <img
+                class="scale-with-grid"
+                src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-header-icon3.svg"
+                alt=""
+                style="width: 100%; height: 100%; object-fit: cover" />
+            </div>
+            <div style="font-weight: 600; color: #fff; font-size: 13px">
+              Weekly new arrivals
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header control -->
+    <div
+      style="border: 1px solid #f7f3ef; background-color: #ffff"
+      class="header_control_sticky">
+      <div
+        style="
+          display: flex;
+          height: 96px;
+          width: 80%;
+          margin: auto;
+          align-items: center;
+        "
+        class="header_control">
+        <a href="./index.html" style="flex: 0 0 25%">
+          <div style="height: 60px; width: 182px" class="logo">
+            <img
+              src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2.svg"
+              alt="befurniturestore2"
+              style="height: 100%; width: 100%; object-fit: cover" />
+          </div>
+          <div style="height: 60px; overflow: hidden" class="logo_responsive">
+            <img
+              src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-mobile.svg"
+              alt="befurniturestore2-mobile"
+              style="height: 100%" />
+          </div>
+        </a>
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            height: 40px;
+            padding: 0 15px;
+            background-color: #f4f4f4;
+            border-radius: 4px;
+            flex: 0 0 50%;
+          "
+          class="input_search_header">
+          <div>
+            <i
+              class="fa-solid fa-magnifying-glass"
+              style="font-size: 18px; margin-right: 10px"></i>
+          </div>
+          <input
+            type="text"
+            class="input_search"
+            style="outline: none; border: none; background-color: transparent"
+            placeholder="Search..." />
+        </div>
+        <div
+          style="
+            display: flex;
+            flex: 0 0 25%;
+            align-items: center;
+            justify-content: end;
+          ">
+          <a href="#" class="icon_control1">
+            <div class="icon_quantity">
+              <svg width="26" viewBox="0 0 26 26" aria-label="search icon">
+                <defs>
+                  <style>
+                    .path {
+                      fill: none;
+                      stroke: #000;
+                      stroke-miterlimit: 10;
+                      stroke-width: 1.5px;
+                    }
+                  </style>
+                </defs>
+                <circle class="path" cx="11.35" cy="11.35" r="6"></circle>
+                <line
+                  class="path"
+                  x1="15.59"
+                  y1="15.59"
+                  x2="20.65"
+                  y2="20.65"></line>
+              </svg>
+            </div>
+          </a>
+          <a href="#" class="icon_control">
+            <div class="icon_quantity">
+              <svg
+                viewBox="0 0 26 26"
+                aria-hidden="true"
+                style="width: 25px; fill: #433779">
+                <defs></defs>
+                <path
+                  class="path"
+                  d="M16.7,6a3.78,3.78,0,0,0-2.3.8A5.26,5.26,0,0,0,13,8.5a5,5,0,0,0-1.4-1.6A3.52,3.52,0,0,0,9.3,6a4.33,4.33,0,0,0-4.2,4.6c0,2.8,2.3,4.7,5.7,7.7.6.5,1.2,1.1,1.9,1.7H13a.37.37,0,0,0,.3-.1c.7-.6,1.3-1.2,1.9-1.7,3.4-2.9,5.7-4.8,5.7-7.7A4.3,4.3,0,0,0,16.7,6Z"></path>
+              </svg>
+              <span class="quantity">0</span>
+            </div>
+          </a>
+
+          <a href="#" class="icon_control">
+            <div class="icon_quantity">
+              <img
+                class="scale-with-grid"
+                src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-header-icon2.svg"
+                alt="" />
+              <span class="quantity">0</span>
+            </div>
+          </a>
+          <a href="#" class="icon_control">
+            <div>
+              <img
+                class="scale-with-grid"
+                src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-header-icon1.svg"
+                alt="" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- header_nav -->
+    <div
+      style="
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.08);
+        background-color: #ffff;
+      ">
+      <div class="header_nav" style="width: 80%; margin: auto">
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            height: 81px;
+            justify-content: space-between;
+          ">
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              background-color: #433779;
+              padding: 22px 30px 22px 30px;
+              color: #fff;
+            "
+            class="categories_header">
+            <div class="scroll">
+              <i class="fa-solid fa-bars" style="font-size: 15px"></i>
+            </div>
+            <div
+              class="scroll"
+              style="font-weight: 600; margin-left: 15px; margin-right: 15px">
+              Browse Categories
+            </div>
+            <div style="transform: translateY(-1px)" class="scroll">
+              <i class="fa-solid fa-chevron-down" style="font-size: 10px"></i>
+            </div>
+
+            <div class="categories" style="display: block">
+              <ul>
+                <li class="categories__chairs_btn">
+                  <a href="">
+                    <span>
+                      <img
+                        src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-menu-icon1.svg"
+                        alt="" />
+                    </span>
+                    <span>Chairs</span>
+                    <span><i class="fa-solid fa-angle-right"></i></span
+                  ></a>
+                  <div class="categories__chairs">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                          <div class="categories__chairs_items">
+                            <img
+                              src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-product-pic1.webp"
+                              alt="" />
+                            <ul>
+                              <li>FABRIC CHAIRS</li>
+                              <li>Wing chair</li>
+                              <li>Rocking chair</li>
+                              <li>Kitchen Table parts</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div
+                          style="
+                            border-left: 1px solid #f0f0f0;
+                            border-right: 1px solid #f0f0f0;
+                          "
+                          class="col-lg-4 col-md-4 col-sm-4 col-4">
+                          <div class="categories__chairs_items">
+                            <img
+                              src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-product-pic2.webp"
+                              alt="" />
+                            <ul>
+                              <li>FABRIC CHAIRS</li>
+                              <li>Wing chair</li>
+                              <li>Rocking chair</li>
+                              <li>Kitchen Table parts</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                          <div class="categories__chairs_items">
+                            <img
+                              src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-product-pic3.webp"
+                              alt="" />
+                            <ul>
+                              <li>FABRIC CHAIRS</li>
+                              <li>Wing chair</li>
+                              <li>Rocking chair</li>
+                              <li>Kitchen Table parts</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="categories__chair_brand d-flex justify-content-lg-around pt-5">
+                        <div class="">
+                          <img
+                            src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-clients-pic5.svg"
+                            alt="" />
+                        </div>
+                        <div class="">
+                          <img
+                            src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-clients-pic2.svg"
+                            alt="" />
+                        </div>
+                        <div class="">
+                          <img
+                            src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-clients-pic3.svg"
+                            alt="" />
+                        </div>
+                        <div class="">
+                          <img
+                            src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-clients-pic1.svg"
+                            alt="" />
+                        </div>
+                        <div class="">
+                          <img
+                            src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-clients-pic4.svg"
+                            alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="">
+                    <span>
+                      <img
+                        src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-menu-icon2.svg"
+                        alt="" />
+                    </span>
+                    <span>Beds</span>
+                    <span><i class="fa-solid fa-angle-right"></i></span
+                  ></a>
+                  <!-- <div class="bg-dark" style="height: 300px; width: 1000px;">
+
+                            </div> -->
+                </li>
+                <li>
+                  <a href="">
+                    <span>
+                      <img
+                        src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-menu-icon7.svg"
+                        alt="" />
+                    </span>
+                    <span>Lamps</span>
+                    <span><i class="fa-solid fa-angle-right"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>
+                      <img
+                        src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-menu-icon3.svg"
+                        alt="" />
+                    </span>
+                    <span>Chairs</span>
+                    <span><i class="fa-solid fa-angle-right"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>
+                      <img
+                        src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-menu-icon4.svg"
+                        alt="" />
+                    </span>
+                    <span>Armchairs</span>
+                    <span><i class="fa-solid fa-angle-right"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>
+                      <img
+                        src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-menu-icon6.svg"
+                        alt="" />
+                    </span>
+                    <span>Cabinets</span>
+                    <span><i class="fa-solid fa-angle-right"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>
+                      <img
+                        src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-menu-icon5.svg"
+                        alt="" />
+                    </span>
+                    <span>Sofas</span>
+                    <span><i class="fa-solid fa-angle-right"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>
+                      <img
+                        src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-menu-icon8.svg"
+                        alt="" />
+                    </span>
+                    <span>Sales</span>
+                    <span><i class="fa-solid fa-angle-right"></i></span
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="#" class="heade_nav_responsive">
+            <div style="display: flex; align-items: center">
+              <div class="icon-wrapper">
+                <img
+                  class="scale-with-grid"
+                  src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-about-icon3.svg"
+                  alt=""
+                  style="width: 100%; height: 100%" />
+              </div>
+              <div
+                class="desc-wrapper"
+                style="color: #433779; font-size: 14px; margin-left: 10px">
+                Categories
+              </div>
+            </div>
+          </a>
+          <div>
+            <ul class="nav_list" style="display: flex">
+              <li><a href="#" style="color: chocolate">Home</a></li>
+              <li><a href="/shop.html">Shop</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Collections</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <div
+              class="bar_responsive"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- body -->
+    <div style="background-color: #fff" class="container__title_filter">
+      <div class="container body_shop">
+        <div class="row">
+          <div class="col">
+            <div class="title__filter">
+              <h2>SHOP</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: #fff" class="container__handle_filter">
+      <div class="container body_shop">
+        <div class="row">
+          <div class="col">
+            <div class="handle__filter_box">
+              <p>Showing all 21 results</p>
+              <div class="handle__filter">
+                <div class="handle__filter_quantity">
+                  <p>Show:</p>
+                  <ul>
+                    <li>
+                      <button fdprocessedid="6u1a0l">60</button>
+                    </li>
+                    <li>
+                      <button class="activeQuantity" fdprocessedid="uwte7">
+                        120
+                      </button>
+                    </li>
+                    <li>
+                      <button fdprocessedid="dugmz7">240</button>
+                    </li>
+                    <li>
+                      <button fdprocessedid="52kxfr">360</button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="handle__filter_grid">
+                  <ul>
+                    <li>
+                      <button
+                        id="grid3"
+                        class="activeGrid"
+                        fdprocessedid="l3gzb3">
+                        <i class="fa-thin fa-grid"></i>
+                      </button>
+                    </li>
+                    <li>
+                      <button id="grid4" fdprocessedid="xp3ili">
+                        <i class="fa-light fa-grid-4"></i>
+                      </button>
+                    </li>
+                    <li>
+                      <button fdprocessedid="xor9ho">
+                        <i class="fa-sharp fa-regular fa-objects-column"></i>
+                      </button>
+                    </li>
+                    <li>
+                      <button id="grid1" fdprocessedid="yjrarc">
+                        <i class="fa-sharp fa-regular fa-line-height"></i>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="handle__filter_option">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                    fdprocessedid="dum6hl">
+                    <option selected="">Open this select menu</option>
+                    <option value="1">Default sorting</option>
+                    <option value="2">Sort by popularity</option>
+                    <option value="3">Sort by average rating</option>
+                  </select>
+                </div>
+                <div class="handle__filter_filter">
+                  <button fdprocessedid="8bldu">
+                    <i class="fa-regular fa-sliders-simple"></i> Filters
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: #fff" class="products__filter_container">
+      <div class="container body_shop">
+        <div class="row">
+          <div
+            class="col__filter_products1 col-lg-4 col-md-6 col-sm-6 col-12"
+            data-products="product1">
+            <a href="" class="products__filter">
+              <div class="products__filter_image">
+                <img
+                  class="w-100"
+                  src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-product-pic3-800x800.webp"
+                  alt="" />
+              </div>
+              <div class="products__filter_desc">
+                <p>Balcony chair</p>
+                <div class="products__detail_description_evaluate">
+                  <ul>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                  </ul>
+                </div>
+                <p><del>$250.00</del> <span>$199.00</span></p>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col__filter_products2 col-lg-4 col-md-6 col-sm-6 col-12"
+            data-products="product2">
+            <a href="/detailProduct.html" class="products__filter">
+              <div class="products__filter_image">
+                <img
+                  class="w-100"
+                  src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-product-pic5.webp"
+                  alt="" />
+              </div>
+              <div class="products__filter_desc">
+                <p>Balcony chair</p>
+                <div class="products__detail_description_evaluate">
+                  <ul>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                  </ul>
+                </div>
+                <p><del>$250.00</del> <span>$199.00</span></p>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col__filter_products3 col-lg-4 col-md-6 col-sm-6 col-12"
+            data-products="product3">
+            <a href="" class="products__filter">
+              <div class="products__filter_image">
+                <img
+                  class="w-100"
+                  src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-product-pic17.webp"
+                  alt="" />
+              </div>
+              <div class="products__filter_desc">
+                <p>Balcony chair</p>
+                <div class="products__detail_description_evaluate">
+                  <ul>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                  </ul>
+                </div>
+                <p><del>$250.00</del> <span>$199.00</span></p>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col__filter_products4 col-lg-4 col-md-6 col-sm-6 col-12"
+            data-products="product4">
+            <a href="" class="products__filter">
+              <div class="products__filter_image">
+                <img
+                  class="w-100"
+                  src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-product-pic13.webp"
+                  alt="" />
+              </div>
+              <div class="products__filter_desc">
+                <p>Balcony chair</p>
+                <div class="products__detail_description_evaluate">
+                  <ul>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li class="activeEvaluate">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                    <li>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </li>
+                  </ul>
+                </div>
+                <p><del>$250.00</del> <span>$199.00</span></p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer
+      style="
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        z-index: -1;
+      "
+      class="container align-content-center">
+      <div style="margin-top: 100px; margin-bottom: 50px" class="container">
+        <div class="row">
+          <div class="col">
+            <div class="title__footer">
+              <img
+                src="https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-footer-logo.svg"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+          <div
+            class="footer__left text-lg-start text-md-start text-sm-center text-center container">
+            <div class="row">
+              <div class="col">
+                <p class="footer__left_title">
+                  Spaces that improve your quality of life - Request an estimate
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <p>
+                  Phone <br />
+                  +61 (0) 3 8376 6284
+                </p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <p>
+                  Mail <br />
+                  noreply@envato.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+          <div class="footer__right mt-lg-0 mt-md-0 mt-sm-4 mt-4 container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                <ul>
+                  <li>
+                    <a href=""> - SHOP </a>
+                  </li>
+                  <li>
+                    <a href=""> - PROJECTS </a>
+                  </li>
+                  <li>
+                    <a href=""> - FAQ </a>
+                  </li>
+                  <li>
+                    <a href=""> - SERVICES </a>
+                  </li>
+                  <li>
+                    <a href=""> - ABOUT US </a>
+                  </li>
+                  <li>
+                    <a href=""> - CONTACT </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                <ul>
+                  <li>
+                    <a href=""> - CHAIRS </a>
+                  </li>
+                  <li>
+                    <a href=""> - BEDS </a>
+                  </li>
+                  <li>
+                    <a href=""> - TABLES </a>
+                  </li>
+                  <li>
+                    <a href=""> - SOFAS </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="border-top: 1px solid rgb(236, 236, 236)" class="row py-5">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <p style="color: #433779">
+            © 2023 Betheme by Muffin group | All Rights Reserved | Powered by
+            WordPress
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <ul class="d-flex justify-content-center">
+            <li>
+              <a href="">
+                <img
+                  src="https://themes.muffingroup.com/be/furniturestore2/wp-content/themes/betheme/images/payment-methods/PayPal.svg"
+                  alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="https://themes.muffingroup.com/be/furniturestore2/wp-content/themes/betheme/images/payment-methods/Visa.svg"
+                  alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="https://themes.muffingroup.com/be/furniturestore2/wp-content/themes/betheme/images/payment-methods/Mastercard.svg"
+                  alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="https://themes.muffingroup.com/be/furniturestore2/wp-content/themes/betheme/images/payment-methods/Maestro.svg"
+                  alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="https://themes.muffingroup.com/be/furniturestore2/wp-content/themes/betheme/images/payment-methods/Stripe.svg"
+                  alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- canvas -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="nav_list_canvas">
+          <li><a href="#" style="color: chocolate">Home</a></li>
+          <li><a href="/shop.html">Shop</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() >= 120) {
+            $(".header__top").addClass("hide");
+            $(".categories").addClass("hide");
+            $(".categories").addClass("sticky");
+            $(".header_control_sticky").addClass("sticky");
+            $(".scroll").addClass("sticky");
+            $(".header_nav").addClass("sticky");
+            $(".categories_header").addClass("sticky");
+          } else {
+            $(".header__top").removeClass("hide");
+            $(".categories").removeClass("hide");
+            $(".categories").removeClass("sticky");
+            $(".header_control_sticky").removeClass("sticky");
+            $(".scroll").removeClass("sticky");
+            $(".header_nav").removeClass("sticky");
+            $(".categories_header").removeClass("sticky");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
